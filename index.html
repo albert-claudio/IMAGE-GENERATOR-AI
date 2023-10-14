@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Generator</h1>
+        <p>Write your prompt here, to generate Images with AI, your have be description
+        For example: "Best quality, marterpiece, HD, 4K, High resolution, Detailed Shadows,
+        cinematic and etc, (two girls drinking tea and taking a selfie on the street), colorfull Braids,
+        Mixed Fujifilm, Cute, Laugh".</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompts here..." autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+            </form>
+
+            <div class="result">
+                <div id="loading">Generating...</div>
+                <div id="image-grid"></div>
+            </div>  
+
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
